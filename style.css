@@ -1,0 +1,19 @@
+.btn-success:hover{
+    background-color: red;
+}
+
+@keyframes boxchanger{
+    from{box-shadow:1px 1px 35px red};
+    to{box-shadow:1px 1px 35px yellow};
+}
+
+canvas{
+    animation-name: boxchanger;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 30px !important;
+}
